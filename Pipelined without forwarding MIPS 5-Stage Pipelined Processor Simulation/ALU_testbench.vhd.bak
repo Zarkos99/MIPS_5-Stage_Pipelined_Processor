@@ -1,0 +1,65 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+use ieee.numeric_std.all;
+ 
+ENTITY Testbench_ALU_1b IS
+END Testbench_ALU_1b;
+ 
+ARCHITECTURE behavior OF Testbench_ALU_1b IS
+ 
+-- Component Declaration for the Unit Under Test (UUT)
+
+component ALU 
+ port ( 	A, B: in STD_LOGIC_VECTOR (31 downto 0);
+			ALUctrl: in STD_LOGIC_VECTOR (3 downto 0); --( Anegate, Bnegate, Operation(2-bit) )
+			Result: out STD_LOGIC_VECTOR (31 downto 0)
+			);
+end component;
+ 
+-- Inputs
+ signal A : STD_LOGIC_VECTOR (31 downto 0);
+ signal B : STD_LOGIC_VECTOR (31 downto 0);
+ signal ALUctrl: STD_LOGIC_VECTOR (3 downto 0);
+ 
+-- Outputs
+ signal Result : STD_LOGIC_VECTOR (31 downto 0);
+ 
+BEGIN
+ 
+-- Instantiate the Unit Under Test (UUT)
+ uut: ALU PORT MAP (
+ A => A,
+ B => B,
+ ALUctrl => ALUctrl,
+ Result => Result
+ );
+ 
+-- Stimulus process
+ stim_proc: process
+ begin
+-- hold reset state for 100 ns.
+ wait for 100 ns;
+ 
+--===ALUctrl options===--
+-- "0000" == AND
+-- "0001" == OR
+-- "0010" == add
+-- "0110" == subtract
+-- "0111" == set on less than
+-- "1100" == nor
+ALUctrl <= "0000";	
+
+	--A <= STD_LOGIC_VECTOR(to_unsigned(1,32));
+	--B <= STD_LOGIC_VECTOR(to_unsigned(1,32));
+
+		for n in INTEGER range 0 to 2 loop
+			B <= std_logic_vector(to_unsigned(n,32));
+			for o in INTEGER range 0 to 2 loop
+				A <= std_logic_vector(to_unsigned(o,32));
+				wait for 10 ns;
+			end loop; 
+		end loop;
+		wait;
+ end process;
+ 
+END;

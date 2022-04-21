@@ -1,0 +1,20 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity Registers is
+ port (Read_Register1, Read_Register2: in UNSIGNED (4 downto 0);
+		 Write_Register: in UNSIGNED (4 downto 0);
+		 Write_Data: in STD_LOGIC_VECTOR(31 downto 0);
+		 RegWrite: in STD_LOGIC;
+		 
+		); 
+end Registers;
+
+
+architecture Registers_arch of Registers is
+
+ begin
+	
+	
+end Registers_arch;

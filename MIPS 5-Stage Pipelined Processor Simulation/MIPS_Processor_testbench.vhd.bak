@@ -1,0 +1,17 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+use ieee.numeric_std.all;
+ 
+use work.instruction_type.all;
+ 
+ENTITY Testbench_Instruction_Mem IS
+END Testbench_Instruction_Mem;
+ 
+ARCHITECTURE behavior OF Testbench_Instruction_Mem IS
+
+
+
+
+
+
+END;

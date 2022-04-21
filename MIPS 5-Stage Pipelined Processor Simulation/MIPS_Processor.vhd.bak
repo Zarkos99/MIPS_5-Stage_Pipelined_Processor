@@ -1,0 +1,19 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity full_adder is
+ port ( 	sensor  : in STD_LOGIC;
+			clk  : in STD_LOGIC;
+			rst_n: in STD_LOGIC; 
+			light_north  : out STD_LOGIC_VECTOR(2 downto 0);
+			light_east:    out STD_LOGIC_VECTOR(2 downto 0)
+   );
+end full_adder;
+
+
+architecture full_adder_arch of full_adder is
+begin
+
+
+end full_adder_arch;

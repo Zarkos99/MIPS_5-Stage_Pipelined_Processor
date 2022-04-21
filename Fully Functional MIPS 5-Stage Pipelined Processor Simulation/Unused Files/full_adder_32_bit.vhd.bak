@@ -1,0 +1,21 @@
+-- 32 bit VHDL Implementation for a Full Adder
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity full_adder_32_bit is
+ port ( 	A, B  : in STD_LOGIC_VECTOR (31 downto 0);
+			CarrIn: in STD_LOGIC;
+			Sum  : out STD_LOGIC_VECTOR (31 downto 0);
+			CarryOut  : out STD_LOGIC
+			);
+end full_adder;
+
+
+architecture full_adder_32_bit_arch of full_adder_32_bit is
+begin
+
+Sum <= (A xor B) xor CarryIn;
+CarryOut <= (A and B) or ((A xor B) and CarryIn);
+
+end full_adder_arch;

@@ -1,0 +1,523 @@
+# Reading pref.tcl
+# do MIPS_Processor_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:14 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# End time: 07:47:14 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:14 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Registers
+# -- Compiling architecture Registers_arch of Registers
+# End time: 07:47:14 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:14 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Data_Mem
+# -- Compiling architecture Data_Mem_arch of Data_Mem
+# End time: 07:47:14 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:14 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 07:47:14 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:15 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Control
+# -- Compiling architecture Control_arch of Control
+# End time: 07:47:15 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:15 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU_Control
+# -- Compiling architecture ALU_Control_arch of ALU_Control
+# End time: 07:47:15 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:15 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture MIPS_Processor_arch of MIPS_Processor
+# End time: 07:47:15 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:40 on Mar 24,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture MIPS_Processor_arch of MIPS_Processor
+# End time: 07:47:40 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 30 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:47:41 on Mar 24,2022
+# vcom -reportprogress 30 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_MIPS_Processor
+# -- Compiling architecture behavior of Testbench_MIPS_Processor
+# End time: 07:47:41 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.testbench_mips_processor
+# vsim -gui -l msim_transcript work.testbench_mips_processor 
+# Start time: 07:47:49 on Mar 24,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_type
+# Loading work.testbench_mips_processor(behavior)
+# Loading work.mips_processor(mips_processor_arch)
+# Loading work.instruction_mem(instruction_mem_arch)
+# Loading work.control(control_arch)
+# Loading work.registers(registers_arch)
+# Loading work.alu_control(alu_control_arch)
+# Loading work.alu(alu_arch)
+# Loading work.data_mem(data_mem_arch)
+add wave -position insertpoint  \
+sim:/testbench_mips_processor/uut/Instruction_Program \
+sim:/testbench_mips_processor/uut/RESET \
+sim:/testbench_mips_processor/uut/CLK \
+sim:/testbench_mips_processor/uut/PC \
+sim:/testbench_mips_processor/uut/PC_next \
+sim:/testbench_mips_processor/uut/Constant_Shifted \
+sim:/testbench_mips_processor/uut/EX_PC_branch \
+sim:/testbench_mips_processor/uut/MA_PC_branch \
+sim:/testbench_mips_processor/uut/IF_PC_add4 \
+sim:/testbench_mips_processor/uut/ID_PC_add4 \
+sim:/testbench_mips_processor/uut/EX_PC_add4 \
+sim:/testbench_mips_processor/uut/IF_Instruction_out \
+sim:/testbench_mips_processor/uut/ID_Instruction_out \
+sim:/testbench_mips_processor/uut/Data_MemtoReg \
+sim:/testbench_mips_processor/uut/MA_Mem_Data \
+sim:/testbench_mips_processor/uut/WB_Mem_Data \
+sim:/testbench_mips_processor/uut/ID_Constant_32bit \
+sim:/testbench_mips_processor/uut/EX_Constant_32bit \
+sim:/testbench_mips_processor/uut/ALUsrc_Data \
+sim:/testbench_mips_processor/uut/EX_Shamt \
+sim:/testbench_mips_processor/uut/EX_Write_Register_Num \
+sim:/testbench_mips_processor/uut/MA_Write_Register_Num \
+sim:/testbench_mips_processor/uut/WB_Write_Register_Num \
+sim:/testbench_mips_processor/uut/EX_rt \
+sim:/testbench_mips_processor/uut/EX_rd \
+sim:/testbench_mips_processor/uut/ID_Read_Reg1_Data \
+sim:/testbench_mips_processor/uut/EX_Read_Reg1_Data \
+sim:/testbench_mips_processor/uut/ID_Read_Reg2_Data \
+sim:/testbench_mips_processor/uut/EX_Read_Reg2_Data \
+sim:/testbench_mips_processor/uut/MA_Read_Reg2_Data \
+sim:/testbench_mips_processor/uut/EX_ALU_Result \
+sim:/testbench_mips_processor/uut/MA_ALU_Result \
+sim:/testbench_mips_processor/uut/WB_ALU_Result \
+sim:/testbench_mips_processor/uut/EX_ALU_Zero \
+sim:/testbench_mips_processor/uut/MA_ALU_Zero \
+sim:/testbench_mips_processor/uut/ID_RegDst \
+sim:/testbench_mips_processor/uut/EX_RegDst \
+sim:/testbench_mips_processor/uut/ID_ALUsrc \
+sim:/testbench_mips_processor/uut/EX_ALUsrc \
+sim:/testbench_mips_processor/uut/ID_MemtoReg \
+sim:/testbench_mips_processor/uut/EX_MemtoReg \
+sim:/testbench_mips_processor/uut/MA_MemtoReg \
+sim:/testbench_mips_processor/uut/WB_MemtoReg \
+sim:/testbench_mips_processor/uut/ID_RegWrite \
+sim:/testbench_mips_processor/uut/EX_RegWrite \
+sim:/testbench_mips_processor/uut/MA_RegWrite \
+sim:/testbench_mips_processor/uut/WB_RegWrite \
+sim:/testbench_mips_processor/uut/ID_MemRead \
+sim:/testbench_mips_processor/uut/EX_MemRead \
+sim:/testbench_mips_processor/uut/MA_MemRead \
+sim:/testbench_mips_processor/uut/ID_MemWrite \
+sim:/testbench_mips_processor/uut/EX_MemWrite \
+sim:/testbench_mips_processor/uut/MA_MemWrite \
+sim:/testbench_mips_processor/uut/ID_Branch \
+sim:/testbench_mips_processor/uut/EX_Branch \
+sim:/testbench_mips_processor/uut/MA_Branch \
+sim:/testbench_mips_processor/uut/ID_ALUop \
+sim:/testbench_mips_processor/uut/EX_ALUop \
+sim:/testbench_mips_processor/uut/ALUctrl \
+sim:/testbench_mips_processor/uut/PCSrc
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/ALU_Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_mips_processor/uut/Instruction_Mem_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Control_Signals
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 17 us  Iteration: 2  Instance: /testbench_mips_processor/uut/Registers_Ports
+# ** Fatal: (vsim-3734) Index value 16 is out of range 15 downto 0.
+#    Time: 17 us  Iteration: 3  Process: /testbench_mips_processor/uut/Instruction_Mem_Ports/line__32 File: C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd
+# Fatal error in Architecture Instruction_Mem_arch at C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd line 32
+# 
+# HDL call sequence:
+# Stopped at C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 32 Architecture Instruction_Mem_arch
+# 
+do {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/simulation/modelsim/MIPS_Processor_run_msim_rtl_vhdl.do}
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Registers
+# -- Compiling architecture Registers_arch of Registers
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Data_Mem
+# -- Compiling architecture Data_Mem_arch of Data_Mem
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Control
+# -- Compiling architecture Control_arch of Control
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU_Control
+# -- Compiling architecture ALU_Control_arch of ALU_Control
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 07:49:02 on Mar 24,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture MIPS_Processor_arch of MIPS_Processor
+# End time: 07:49:02 on Mar 24,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# End time: 07:49:18 on Mar 24,2022, Elapsed time: 0:01:29
+# Errors: 1, Warnings: 106

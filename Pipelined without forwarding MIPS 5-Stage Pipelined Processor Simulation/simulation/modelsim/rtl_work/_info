@@ -1,0 +1,339 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/simulation/modelsim
+Ealu
+Z1 w1648052470
+Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z5 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd
+Z6 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd
+l0
+L5 1
+V6Da:^bUD[>^_?d5HNJnH93
+!s100 z0W?][X:HYkB6[VeKW>l]3
+Z7 OV;C;2020.1;71
+31
+Z8 !s110 1648122542
+!i10b 1
+Z9 !s108 1648122542.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd|
+Z11 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Aalu_arch
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 6Da:^bUD[>^_?d5HNJnH93
+!i122 0
+l18
+L14 35
+VMYMEjb3Jlj1ERAnX]h1fR0
+!s100 =zENZ64X4Rm;nT72RizJ?1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_control
+Z14 w1648052253
+R2
+R3
+R4
+!i122 5
+R0
+Z15 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd
+Z16 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd
+l0
+L5 1
+Vd[N<eH8bHLWV<Qf?hf;m]1
+!s100 =g4<G]<4K>lcA?f?92_>90
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd|
+Z18 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd|
+!i113 1
+R12
+R13
+Aalu_control_arch
+R2
+R3
+R4
+DEx4 work 11 alu_control 0 22 d[N<eH8bHLWV<Qf?hf;m]1
+!i122 5
+l18
+L16 27
+VlOoMA;;[;nF24PN]FZV0H2
+!s100 HfkzeIfS;hlOKPk<Gi]DT1
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Econtrol
+Z19 w1645496889
+R2
+R3
+R4
+!i122 4
+R0
+Z20 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd
+Z21 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd
+l0
+L5 1
+VdSoRc^mJj4lko9Ee7Z[4L1
+!s100 FWC2L[1A2JLoR<mT1z@6U2
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd|
+Z23 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Control.vhd|
+!i113 1
+R12
+R13
+Acontrol_arch
+R2
+R3
+R4
+DEx4 work 7 control 0 22 dSoRc^mJj4lko9Ee7Z[4L1
+!i122 4
+l33
+L13 118
+V7Di@zk4ZfQ>Bo<eN9`U090
+!s100 OaU:Z<44@RgcDgL:lb_3=3
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Edata_mem
+Z24 w1645550935
+R2
+R3
+R4
+!i122 2
+R0
+Z25 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd
+Z26 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd
+l0
+L5 1
+V[GC5ma8QK<mLKC4[mV2Y>3
+!s100 mm7gXS0NNGf8K3GSQlWPb0
+R7
+31
+R8
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd|
+Z28 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd|
+!i113 1
+R12
+R13
+Adata_mem_arch
+R2
+R3
+R4
+DEx4 work 8 data_mem 0 22 [GC5ma8QK<mLKC4[mV2Y>3
+!i122 2
+l22
+L16 20
+V97NFnVd;>cQc7io7K=fVZ3
+!s100 hLMbJV=jgdL`SQkW^30Lj1
+R7
+31
+R8
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Einstruction_mem
+Z29 w1648056402
+Z30 DPx4 work 16 instruction_type 0 22 L21RGHhFmXbJhl_3YVRGW0
+R2
+R3
+R4
+!i122 3
+R0
+Z31 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd
+Z32 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd
+l0
+L16 1
+V4PRjS>ZREo]:lCjIO@cM;3
+!s100 K_XkI31Ok1>mHMJn2VmF13
+R7
+31
+R8
+!i10b 1
+R9
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd|
+Z34 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd|
+!i113 1
+R12
+R13
+Ainstruction_mem_arch
+R30
+R2
+R3
+R4
+DEx4 work 15 instruction_mem 0 22 4PRjS>ZREo]:lCjIO@cM;3
+!i122 3
+l29
+L25 10
+VKhUEhK0g=h^YPalm:`z652
+!s100 zeo^h[::FhH`=9QaL0z>60
+R7
+31
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
+Pinstruction_type
+R2
+R3
+R4
+!i122 3
+R29
+R0
+R31
+R32
+l0
+L5 1
+VL21RGHhFmXbJhl_3YVRGW0
+!s100 0Z9@lNV`H4b@6E?c6DdFF0
+R7
+31
+R8
+!i10b 1
+R9
+R33
+R34
+!i113 1
+R12
+R13
+Emips_processor
+Z35 w1648056057
+R30
+R2
+R3
+R4
+!i122 6
+R0
+Z36 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd
+Z37 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd
+l0
+L7 1
+VYHVQlfzL=i_g@fZg`nMSX1
+!s100 JYCMU3DJo>lBeG;>BBebY1
+R7
+31
+R8
+!i10b 1
+R9
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd|
+!s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd|
+!i113 1
+R12
+R13
+Amips_processor_arch
+R30
+R2
+R3
+R4
+DEx4 work 14 mips_processor 0 22 YHVQlfzL=i_g@fZg`nMSX1
+!i122 6
+l112
+L14 332
+V2G?c3Q_FIANkV8cBj;CUL1
+!s100 ;3o=SbGMjEKJS@fkmY>@H1
+R7
+31
+R8
+!i10b 1
+R9
+R38
+Z39 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd|
+!i113 1
+R12
+R13
+Eregisters
+Z40 w1645726275
+R2
+R3
+R4
+!i122 1
+R0
+Z41 8C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd
+Z42 FC:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd
+l0
+L5 1
+VzTl<0z:DT4S5bJW1;1O;U2
+!s100 8eaC@6@]R7oY3H_VPiQao3
+R7
+31
+R8
+!i10b 1
+R9
+Z43 !s90 -reportprogress|300|-93|-work|work|C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd|
+Z44 !s107 C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd|
+!i113 1
+R12
+R13
+Aregisters_arch
+R2
+R3
+R4
+DEx4 work 9 registers 0 22 zTl<0z:DT4S5bJW1;1O;U2
+!i122 1
+l24
+L16 25
+VVBlPmB2GK5B7j1mdY0Nm72
+!s100 `n[VRhU_]e5:DUaGFLZbP1
+R7
+31
+R8
+!i10b 1
+R9
+R43
+R44
+!i113 1
+R12
+R13

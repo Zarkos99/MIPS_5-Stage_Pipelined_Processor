@@ -1,0 +1,33 @@
+entity ALU_Control is
+port( funct: in STD_LOGIC_VECTOR (4 downto 0)
+		ALUop: in STD_LOGIC_VECTOR (1 downto 0)
+		ALUctrl: out STD_LOGIC_VECTOR (3 downto 0)
+	 );
+end ALU_Control;
+
+--ALUop = 00 => lw, sw
+--			 01 => beq
+--			 10 => R-format (determined by funct)
+
+architecture ALU_Control_arch of ALU_Control is
+
+BEGIN
+
+ALUctrl <=
+	--ADD for lw and sw 
+	"0010" after 1 ns when ALUop = "00";
+	--SUBTRACT for beq
+	"0110" after 1 ns when ALUop = "01";
+	--ADD for R-format
+	"0010" after 1 ns when ALUop = "10" and funct = "100000";
+	--SUBTRACT for R-format
+	"0110" after 1 ns when ALUop = "10" and funct = "100010";
+	--AND for R-format
+	"0000" after 1 ns when ALUop = "10" and funct = "100100";
+	--OR for R-format
+	"0001" after 1 ns when ALUop = "10" and funct = "100101";
+	--SET-ON-LESS-THAN for R-format
+	"0111" after 1 ns when ALUop = "10" and funct = "101010";
+	
+	
+end ALU_Control_arch

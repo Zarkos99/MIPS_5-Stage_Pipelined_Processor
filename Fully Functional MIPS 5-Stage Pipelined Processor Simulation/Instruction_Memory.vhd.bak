@@ -1,0 +1,26 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity Instruction_Mem is
+ generic (Data_size: Integer := 256);
+ 
+ port (Address: in UNSIGNED (31 downto 0);
+		 Write_Data: in STD_LOGIC_VECTOR (31 downto 0);
+		 memWrite, memRead: in STD_LOGIC;
+		 Read_Data: out STD_LOGIC_VECTOR (31 downto 0)); 
+end Instruction_Mem;
+
+
+architecture Instruction_Mem_arch of Instruction_Mem is
+	
+	type data_array is array (Data_size downto 0) of std_logic_vector (31 downto 0);
+	
+	signal DATA : data_array;
+	
+ begin
+	
+	DATA(to_integer(Address)) <= Write_Data when memWrite = '1';
+	Read_Data <= DATA(to_integer(Address)) when memRead = '1';
+	
+end Instruction_Mem_arch;

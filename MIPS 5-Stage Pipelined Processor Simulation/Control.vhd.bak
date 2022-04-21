@@ -1,0 +1,10 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity Control_Signals is
+port ();
+end Control_Signals;
+
+
+architecture Control_Signals_arch of Control_Signals is

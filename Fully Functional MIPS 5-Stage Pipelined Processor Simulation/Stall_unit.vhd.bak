@@ -1,0 +1,27 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity Stall is
+ port ( -- ALU Forwarding
+		  MA_Rd, WB_Rd: in UNSIGNED (4 downto 0);
+		  MA_RegWrite, WB_RegWrite: in STD_LOGIC;
+		  EX_rs, EX_rt: in UNSIGNED (4 downto 0);
+		  Forward_1, Forward_2: out UNSIGNED (1 downto 0)
+		  --Load Word Forwarding
+		);
+end Stall;
+
+-- Stall Unit
+-- 
+
+
+architecture Stall_arch of Stall is
+	
+	
+ begin
+
+				
+
+  
+end Stall_arch;

@@ -1,0 +1,851 @@
+ -- Copyright (C) 2020  Intel Corporation. All rights reserved.
+ -- Your use of Intel Corporation's design tools, logic functions 
+ -- and other software and tools, and any partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Intel Program License 
+ -- Subscription Agreement, the Intel Quartus Prime License Agreement,
+ -- the Intel FPGA IP License Agreement, or other applicable license
+ -- agreement, including, without limitation, that your use is for
+ -- the sole purpose of programming logic devices manufactured by
+ -- Intel and sold by Intel or its authorized distributors.  Please
+ -- refer to the applicable agreement for further details, at
+ -- https://fpgasoftware.intel.com/eula.
+ -- 
+ -- This is a Quartus Prime output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus Prime input file. This file cannot be used
+ -- to make Quartus Prime pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus Prime help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.0V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --                  Bank 1:       2.5V
+ --                  Bank 2:       2.5V
+ --                  Bank 3:       2.5V
+ --                  Bank 4:       2.5V
+ --                  Bank 5:       2.5V
+ --                  Bank 6:       2.5V
+ --                  Bank 7:       2.5V
+ --                  Bank 8:       2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --                  It can also be used to report unused dedicated pins. The connection
+ --                  on the board for unused dedicated pins depends on whether this will
+ --                  be used in a future design. One example is device migration. When
+ --                  using device migration, refer to the device pin-tables. If it is a
+ --                  GND pin in the pin table or if it will not be used in a future design
+ --                  for another purpose the it MUST be connected to GND. If it is an unused
+ --                  dedicated pin, then it can be connected to a valid signal on the board
+ --                  (low, high, or toggling) if that signal is required for a different
+ --                  revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --                  This pin should be connected to GND. It may also be connected  to a
+ --                  valid signal  on the board  (low, high, or toggling)  if that signal
+ --                  is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --                  or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+CHIP  "MIPS_Processor"  ASSIGNED TO AN: EP4CE115F29I8L
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+Instruction_Program[8][8]    : A3        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[13][14]  : A4        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A5        : power  :                   : 2.5V    : 8         :                
+Instruction_Program[7][23]   : A6        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8         :                
+Instruction_Program[5][13]   : A8        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A9        : power  :                   : 2.5V    : 8         :                
+Instruction_Program[15][30]  : A10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[8][19]   : A11       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[2][9]    : A12       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : A13       : power  :                   : 2.5V    : 8         :                
+Instruction_Program[6][24]   : A14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[4][12]   : A15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[10][4]   : A17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[2][29]   : A18       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[1][4]    : A19       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A20       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[12][18]  : A21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[13][10]  : A22       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[2][21]   : A23       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A24       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[7][18]   : A25       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[9][8]    : A26       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A27       : power  :                   : 2.5V    : 7         :                
+VCCIO2                       : AA1       : power  :                   : 2.5V    : 2         :                
+GND                          : AA2       : gnd    :                   :         :           :                
+Instruction_Program[9][11]   : AA3       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[14][14]  : AA4       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[12][23]  : AA5       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[1][17]   : AA6       : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 2         :                
+Instruction_Program[0][11]   : AA8       : input  : 2.5 V             :         : 3         : N              
+GNDA1                        : AA9       : gnd    :                   :         :           :                
+Instruction_Program[7][29]   : AA10      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AA11      : power  :                   : 2.5V    : 3         :                
+Instruction_Program[14][28]  : AA12      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[3][24]   : AA13      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[8][5]    : AA14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[2][18]   : AA15      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[4][23]   : AA16      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][10]  : AA17      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AA18      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[0][0]    : AA19      : input  : 2.5 V             :         : 4         : N              
+GNDA4                        : AA20      : gnd    :                   :         :           :                
+Instruction_Program[9][9]    : AA21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[14][18]  : AA22      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][16]   : AA23      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[13][22]  : AA24      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[14][16]  : AA25      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[8][1]    : AA26      : input  : 2.5 V             :         : 5         : N              
+GND                          : AA27      : gnd    :                   :         :           :                
+VCCIO5                       : AA28      : power  :                   : 2.5V    : 5         :                
+Instruction_Program[8][4]    : AB1       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[0][10]   : AB2       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[6][3]    : AB3       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[14][0]   : AB4       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[13][25]  : AB5       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[12][16]  : AB6       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[15][18]  : AB7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[15][8]   : AB8       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[13][17]  : AB9       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[8][31]   : AB10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[0][28]   : AB11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[15][31]  : AB12      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[0][21]   : AB13      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][20]  : AB14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[15][0]   : AB15      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][8]    : AB16      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[13][15]  : AB17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[10][25]  : AB18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][12]   : AB19      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[14][21]  : AB20      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[5][22]   : AB21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][14]   : AB22      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][23]   : AB23      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][14]   : AB24      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[2][7]    : AB25      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[0][31]   : AB26      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[3][23]   : AB27      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][28]  : AB28      : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC1       :        :                   :         : 2         :                
+Instruction_Program[4][6]    : AC2       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[6][27]   : AC3       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[8][23]   : AC4       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[4][19]   : AC5       : input  : 2.5 V             :         : 2         : N              
+GND                          : AC6       : gnd    :                   :         :           :                
+Instruction_Program[5][5]    : AC7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[10][13]  : AC8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AC9       : gnd    :                   :         :           :                
+Instruction_Program[13][1]   : AC10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][26]   : AC11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[12][29]  : AC12      : input  : 2.5 V             :         : 3         : N              
+GND                          : AC13      : gnd    :                   :         :           :                
+Instruction_Program[12][11]  : AC14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[13][20]  : AC15      : input  : 2.5 V             :         : 4         : N              
+GND                          : AC16      : gnd    :                   :         :           :                
+Instruction_Program[10][7]   : AC17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[7][17]   : AC18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[5][8]    : AC19      : input  : 2.5 V             :         : 4         : N              
+GND                          : AC20      : gnd    :                   :         :           :                
+Instruction_Program[5][29]   : AC21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[8][12]   : AC22      : input  : 2.5 V             :         : 4         : N              
+GND                          : AC23      : gnd    :                   :         :           :                
+Instruction_Program[12][2]   : AC24      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][7]   : AC25      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[8][6]    : AC26      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[6][1]    : AC27      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[1][16]   : AC28      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[14][19]  : AD1       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[14][15]  : AD2       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[4][21]   : AD3       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[7][19]   : AD4       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][25]  : AD5       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD6       : power  :                   : 2.5V    : 3         :                
+Instruction_Program[14][11]  : AD7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[3][29]   : AD8       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD9       : power  :                   : 2.5V    : 3         :                
+Instruction_Program[8][17]   : AD10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[15][11]  : AD11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][4]    : AD12      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD13      : power  :                   : 2.5V    : 3         :                
+Instruction_Program[1][22]   : AD14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[10][29]  : AD15      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD16      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[10][9]   : AD17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[3][13]   : AD18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[3][7]    : AD19      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD20      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[11][24]  : AD21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][26]  : AD22      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD23      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[10][3]   : AD24      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[5][17]   : AD25      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[2][12]   : AD26      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][23]  : AD27      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[10][16]  : AD28      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][0]    : AE1       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[15][20]  : AE2       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[9][22]   : AE3       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[8][10]   : AE4       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][16]   : AE5       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[1][28]   : AE6       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[5][25]   : AE7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[10][0]   : AE8       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][22]  : AE9       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[15][2]   : AE10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][9]   : AE11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[7][24]   : AE12      : input  : 2.5 V             :         : 3         : N              
+RESET                        : AE13      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[8][2]    : AE14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[1][2]    : AE15      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][1]    : AE16      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[11][12]  : AE17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[5][1]    : AE18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[10][2]   : AE19      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[9][30]   : AE20      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[3][28]   : AE21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[13][6]   : AE22      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][17]  : AE23      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[12][0]   : AE24      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[6][22]   : AE25      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[2][10]   : AE26      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[15][4]   : AE27      : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][28]   : AE28      : input  : 2.5 V             :         : 5         : N              
+GND                          : AF1       : gnd    :                   :         :           :                
+Instruction_Program[10][21]  : AF2       : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[6][17]   : AF3       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[5][28]   : AF4       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[15][25]  : AF5       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[7][6]    : AF6       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][11]   : AF7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[2][26]   : AF8       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[9][1]    : AF9       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[8][22]   : AF10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[9][24]   : AF11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][3]   : AF12      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[1][26]   : AF13      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[5][12]   : AF14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][28]   : AF15      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[12][30]  : AF16      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[6][11]   : AF17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[14][1]   : AF18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[6][9]    : AF19      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[1][10]   : AF20      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][19]   : AF21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[9][13]   : AF22      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[8][26]   : AF23      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[12][1]   : AF24      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[3][3]    : AF25      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][29]  : AF26      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[5][20]   : AF27      : input  : 2.5 V             :         : 5         : N              
+GND                          : AF28      : gnd    :                   :         :           :                
+VCCIO2                       : AG1       : power  :                   : 2.5V    : 2         :                
+GND                          : AG2       : gnd    :                   :         :           :                
+Instruction_Program[7][2]    : AG3       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[9][21]   : AG4       : input  : 2.5 V             :         : 3         : N              
+GND                          : AG5       : gnd    :                   :         :           :                
+Instruction_Program[3][14]   : AG6       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[2][1]    : AG7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][15]   : AG8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AG9       : gnd    :                   :         :           :                
+Instruction_Program[13][13]  : AG10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[5][23]   : AG11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[5][27]   : AG12      : input  : 2.5 V             :         : 3         : N              
+GND                          : AG13      : gnd    :                   :         :           :                
+Instruction_Program[2][4]    : AG14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][17]   : AG15      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG16      : gnd    :                   :         :           :                
+Instruction_Program[10][8]   : AG17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][1]   : AG18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[12][5]   : AG19      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG20      : gnd    :                   :         :           :                
+Instruction_Program[9][2]    : AG21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][12]  : AG22      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[7][31]   : AG23      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG24      : gnd    :                   :         :           :                
+Instruction_Program[15][22]  : AG25      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[14][2]   : AG26      : input  : 2.5 V             :         : 4         : N              
+GND                          : AG27      : gnd    :                   :         :           :                
+VCCIO5                       : AG28      : power  :                   : 2.5V    : 5         :                
+VCCIO3                       : AH2       : power  :                   : 2.5V    : 3         :                
+Instruction_Program[15][21]  : AH3       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][13]  : AH4       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH5       : power  :                   : 2.5V    : 3         :                
+Instruction_Program[8][21]   : AH6       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[0][29]   : AH7       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[5][26]   : AH8       : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH9       : power  :                   : 2.5V    : 3         :                
+Instruction_Program[7][0]    : AH10      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[1][21]   : AH11      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[0][20]   : AH12      : input  : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH13      : power  :                   : 2.5V    : 3         :                
+Instruction_Program[2][5]    : AH14      : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[4][18]   : AH15      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH16      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[5][11]   : AH17      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[10][23]  : AH18      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[4][14]   : AH19      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH20      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[6][13]   : AH21      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[15][15]  : AH22      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[11][16]  : AH23      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH24      : power  :                   : 2.5V    : 4         :                
+Instruction_Program[9][15]   : AH25      : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[2][23]   : AH26      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH27      : power  :                   : 2.5V    : 4         :                
+VCCIO1                       : B1        : power  :                   : 2.5V    : 1         :                
+GND                          : B2        : gnd    :                   :         :           :                
+Instruction_Program[10][24]  : B3        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[1][24]   : B4        : input  : 2.5 V             :         : 8         : N              
+GND                          : B5        : gnd    :                   :         :           :                
+Instruction_Program[7][28]   : B6        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[2][0]    : B7        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[12][4]   : B8        : input  : 2.5 V             :         : 8         : N              
+GND                          : B9        : gnd    :                   :         :           :                
+Instruction_Program[13][21]  : B10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[13][11]  : B11       : input  : 2.5 V             :         : 8         : N              
+GND                          : B12       : gnd    :                   :         :           :                
+GND                          : B13       : gnd    :                   :         :           :                
+Instruction_Program[6][25]   : B14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[4][13]   : B15       : input  : 2.5 V             :         : 7         : N              
+GND                          : B16       : gnd    :                   :         :           :                
+Instruction_Program[13][27]  : B17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[8][25]   : B18       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[0][25]   : B19       : input  : 2.5 V             :         : 7         : N              
+GND                          : B20       : gnd    :                   :         :           :                
+Instruction_Program[9][10]   : B21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[6][20]   : B22       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[4][0]    : B23       : input  : 2.5 V             :         : 7         : N              
+GND                          : B24       : gnd    :                   :         :           :                
+Instruction_Program[0][22]   : B25       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[11][15]  : B26       : input  : 2.5 V             :         : 7         : N              
+GND                          : B27       : gnd    :                   :         :           :                
+VCCIO6                       : B28       : power  :                   : 2.5V    : 6         :                
+GND                          : C1        : gnd    :                   :         :           :                
+Instruction_Program[5][14]   : C2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[3][26]   : C3        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[4][7]    : C4        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[1][5]    : C5        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[7][12]   : C6        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[11][4]   : C7        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[10][31]  : C8        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[3][25]   : C9        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[11][27]  : C10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[4][3]    : C11       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[1][18]   : C12       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[5][31]   : C13       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[9][31]   : C14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[3][12]   : C15       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[6][21]   : C16       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[3][1]    : C17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[10][22]  : C18       : input  : 2.5 V             :         : 7         : N              
+CLK                          : C19       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[14][27]  : C20       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[1][27]   : C21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[15][19]  : C22       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[3][27]   : C23       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[14][10]  : C24       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[12][8]   : C25       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[14][29]  : C26       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[3][18]   : C27       : input  : 2.5 V             :         : 6         : N              
+GND                          : C28       : gnd    :                   :         :           :                
+Instruction_Program[6][8]    : D1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[12][24]  : D2        : input  : 2.5 V             :         : 1         : N              
+GND                          : D3        : gnd    :                   :         :           :                
+Instruction_Program[6][18]   : D4        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[9][17]   : D5        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[6][23]   : D6        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[14][31]  : D7        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[2][31]   : D8        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[13][26]  : D9        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[3][11]   : D10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[12][9]   : D11       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[2][11]   : D12       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[13][31]  : D13       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[5][2]    : D14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[6][19]   : D15       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[4][5]    : D16       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[15][7]   : D17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[11][26]  : D18       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[1][14]   : D19       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[13][30]  : D20       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[10][19]  : D21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[6][15]   : D22       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[1][3]    : D23       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[3][31]   : D24       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[2][27]   : D25       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[12][17]  : D26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[10][6]   : D27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[8][0]    : D28       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1         :                
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[6][0]    : E3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[7][7]    : E4        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[0][17]   : E5        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : E6        : power  :                   : 2.5V    : 8         :                
+Instruction_Program[2][20]   : E7        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[9][29]   : E8        : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
+Instruction_Program[10][14]  : E10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[11][22]  : E11       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[13][24]  : E12       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : E13       : power  :                   : 2.5V    : 8         :                
+Instruction_Program[10][18]  : E14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[1][29]   : E15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E16       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[13][4]   : E17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[6][6]    : E18       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[9][25]   : E19       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[11][19]  : E21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[1][9]    : E22       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[1][0]    : E24       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[8][20]   : E25       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[7][22]   : E26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[1][19]   : E27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[3][21]   : E28       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[11][11]  : F1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[4][31]   : F2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[8][24]   : F3        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : F4        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[15][28]  : F5        : input  : 2.5 V             :         : 1         : N              
+GND                          : F6        : gnd    :                   :         :           :                
+Instruction_Program[5][21]   : F7        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[7][14]   : F8        : input  : 2.5 V             :         : 8         : N              
+GND                          : F9        : gnd    :                   :         :           :                
+Instruction_Program[5][18]   : F10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[12][26]  : F11       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[13][9]   : F12       : input  : 2.5 V             :         : 8         : N              
+GND                          : F13       : gnd    :                   :         :           :                
+Instruction_Program[13][16]  : F14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[0][2]    : F15       : input  : 2.5 V             :         : 7         : N              
+GND                          : F16       : gnd    :                   :         :           :                
+Instruction_Program[5][10]   : F17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[2][17]   : F18       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[1][31]   : F19       : input  : 2.5 V             :         : 7         : N              
+GND                          : F20       : gnd    :                   :         :           :                
+Instruction_Program[12][22]  : F21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[8][27]   : F22       : input  : 2.5 V             :         : 7         : N              
+GND                          : F23       : gnd    :                   :         :           :                
+Instruction_Program[4][30]   : F24       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F25       :        :                   :         : 6         :                
+Instruction_Program[0][24]   : F26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[0][9]    : F27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[5][15]   : F28       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[11][10]  : G1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[7][16]   : G2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[3][10]   : G3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[8][3]    : G4        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[9][23]   : G5        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[9][7]    : G6        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[4][9]    : G7        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[1][7]    : G8        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[2][8]    : G9        : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[15][24]  : G10       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[10][12]  : G11       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[9][5]    : G12       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[11][2]   : G13       : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G14       :        :                   :         : 8         :                
+Instruction_Program[5][24]   : G15       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[9][6]    : G16       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[11][5]   : G17       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[6][2]    : G18       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[6][30]   : G19       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[5][16]   : G20       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[13][18]  : G21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[13][7]   : G22       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[3][20]   : G23       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[3][22]   : G24       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[11][31]  : G25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[10][30]  : G26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[8][18]   : G27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[14][5]   : G28       : input  : 2.5 V             :         : 6         : N              
+VCCIO1                       : H1        : power  :                   : 2.5V    : 1         :                
+GND                          : H2        : gnd    :                   :         :           :                
+Instruction_Program[12][10]  : H3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[6][29]   : H4        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[10][26]  : H5        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[1][13]   : H6        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[5][4]    : H7        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[4][2]    : H8        : input  : 2.5 V             :         : 8         : N              
+GNDA3                        : H9        : gnd    :                   :         :           :                
+Instruction_Program[3][15]   : H10       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : H11       : power  :                   : 2.5V    : 8         :                
+Instruction_Program[8][16]   : H12       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[1][23]   : H13       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[4][29]   : H14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[5][6]    : H15       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[2][19]   : H16       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[3][0]    : H17       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
+Instruction_Program[3][2]    : H19       : input  : 2.5 V             :         : 7         : N              
+GNDA2                        : H20       : gnd    :                   :         :           :                
+Instruction_Program[4][10]   : H21       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[13][12]  : H22       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[5][19]   : H23       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[9][26]   : H24       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[12][13]  : H25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[2][2]    : H26       : input  : 2.5 V             :         : 6         : N              
+GND                          : H27       : gnd    :                   :         :           :                
+VCCIO6                       : H28       : power  :                   : 2.5V    : 6         :                
+GND+                         : J1        :        :                   :         : 1         :                
+GND                          : J2        : gnd    :                   :         :           :                
+Instruction_Program[9][12]   : J3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[7][9]    : J4        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[10][1]   : J5        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[6][28]   : J6        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[8][13]   : J7        : input  : 2.5 V             :         : 1         : N              
+VCCA3                        : J8        : power  :                   : 2.5V    :           :                
+VCCD_PLL3                    : J9        : power  :                   : 1.0V    :           :                
+Instruction_Program[7][27]   : J10       : input  : 2.5 V             :         : 8         : N              
+GND                          : J11       : gnd    :                   :         :           :                
+Instruction_Program[14][6]   : J12       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[3][19]   : J13       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[3][6]    : J14       : input  : 2.5 V             :         : 8         : N              
+Instruction_Program[2][13]   : J15       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[15][23]  : J16       : input  : 2.5 V             :         : 7         : N              
+Instruction_Program[14][26]  : J17       : input  : 2.5 V             :         : 7         : N              
+GND                          : J18       : gnd    :                   :         :           :                
+Instruction_Program[12][28]  : J19       : input  : 2.5 V             :         : 7         : N              
+VCCD_PLL2                    : J20       : power  :                   : 1.0V    :           :                
+VCCA2                        : J21       : power  :                   : 2.5V    :           :                
+Instruction_Program[2][24]   : J22       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[4][1]    : J23       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[3][5]    : J24       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[7][25]   : J25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[2][30]   : J26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[13][0]   : J27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[12][31]  : J28       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[6][7]    : K1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[3][4]    : K2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[3][8]    : K3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[14][23]  : K4        : input  : 2.5 V             :         : 1         : N              
+VCCIO1                       : K5        : power  :                   : 2.5V    : 1         :                
+GND                          : K6        : gnd    :                   :         :           :                
+Instruction_Program[10][17]  : K7        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[2][16]   : K8        : input  : 2.5 V             :         : 1         : N              
+VCCINT                       : K9        : power  :                   : 1.0V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCCINT                       : K11       : power  :                   : 1.0V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+VCCINT                       : K13       : power  :                   : 1.0V    :           :                
+GND                          : K14       : gnd    :                   :         :           :                
+VCCINT                       : K15       : power  :                   : 1.0V    :           :                
+GND                          : K16       : gnd    :                   :         :           :                
+VCCINT                       : K17       : power  :                   : 1.0V    :           :                
+GND                          : K18       : gnd    :                   :         :           :                
+VCCINT                       : K19       : power  :                   : 1.0V    :           :                
+GND                          : K20       : gnd    :                   :         :           :                
+Instruction_Program[0][18]   : K21       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[7][1]    : K22       : input  : 2.5 V             :         : 6         : N              
+GND                          : K23       : gnd    :                   :         :           :                
+VCCIO6                       : K24       : power  :                   : 2.5V    : 6         :                
+Instruction_Program[10][11]  : K25       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K26       :        :                   :         : 6         :                
+Instruction_Program[7][4]    : K27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[11][25]  : K28       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[10][10]  : L1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[0][4]    : L2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[3][9]    : L3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[0][7]    : L4        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[8][28]   : L5        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[11][13]  : L6        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[11][30]  : L7        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[12][27]  : L8        : input  : 2.5 V             :         : 1         : N              
+GND                          : L9        : gnd    :                   :         :           :                
+VCCINT                       : L10       : power  :                   : 1.0V    :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCINT                       : L12       : power  :                   : 1.0V    :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.0V    :           :                
+GND                          : L15       : gnd    :                   :         :           :                
+VCCINT                       : L16       : power  :                   : 1.0V    :           :                
+GND                          : L17       : gnd    :                   :         :           :                
+VCCINT                       : L18       : power  :                   : 1.0V    :           :                
+GND                          : L19       : gnd    :                   :         :           :                
+VCCINT                       : L20       : power  :                   : 1.0V    :           :                
+Instruction_Program[10][15]  : L21       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[13][2]   : L22       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[11][29]  : L23       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[7][26]   : L24       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[0][15]   : L25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[13][5]   : L26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[1][11]   : L27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[4][25]   : L28       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[6][31]   : M1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[2][22]   : M2        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[14][8]   : M3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[7][10]   : M4        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[15][3]   : M5        : input  : 2.5 V             :         : 1         : N              
+nSTATUS                      : M6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 1         :                
+Instruction_Program[1][25]   : M8        : input  : 2.5 V             :         : 1         : N              
+VCCINT                       : M9        : power  :                   : 1.0V    :           :                
+GND                          : M10       : gnd    :                   :         :           :                
+VCCINT                       : M11       : power  :                   : 1.0V    :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+VCCINT                       : M13       : power  :                   : 1.0V    :           :                
+GND                          : M14       : gnd    :                   :         :           :                
+VCCINT                       : M15       : power  :                   : 1.0V    :           :                
+GND                          : M16       : gnd    :                   :         :           :                
+VCCINT                       : M17       : power  :                   : 1.0V    :           :                
+GND                          : M18       : gnd    :                   :         :           :                
+VCCINT                       : M19       : power  :                   : 1.0V    :           :                
+GND                          : M20       : gnd    :                   :         :           :                
+Instruction_Program[7][20]   : M21       : input  : 2.5 V             :         : 6         : N              
+MSEL2                        : M22       :        :                   :         : 6         :                
+Instruction_Program[0][16]   : M23       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[12][6]   : M24       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[4][22]   : M25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[6][5]    : M26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[5][9]    : M27       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[0][3]    : M28       : input  : 2.5 V             :         : 6         : N              
+VCCIO1                       : N1        : power  :                   : 2.5V    : 1         :                
+GND                          : N2        : gnd    :                   :         :           :                
+Instruction_Program[15][27]  : N3        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[2][25]   : N4        : input  : 2.5 V             :         : 1         : N              
+VCCIO1                       : N5        : power  :                   : 2.5V    : 1         :                
+GND                          : N6        : gnd    :                   :         :           :                
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : N7        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[12][21]  : N8        : input  : 2.5 V             :         : 1         : N              
+GND                          : N9        : gnd    :                   :         :           :                
+VCCINT                       : N10       : power  :                   : 1.0V    :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+VCCINT                       : N12       : power  :                   : 1.0V    :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+VCCINT                       : N14       : power  :                   : 1.0V    :           :                
+GND                          : N15       : gnd    :                   :         :           :                
+VCCINT                       : N16       : power  :                   : 1.0V    :           :                
+GND                          : N17       : gnd    :                   :         :           :                
+VCCINT                       : N18       : power  :                   : 1.0V    :           :                
+GND                          : N19       : gnd    :                   :         :           :                
+VCCINT                       : N20       : power  :                   : 1.0V    :           :                
+Instruction_Program[15][9]   : N21       : input  : 2.5 V             :         : 6         : N              
+MSEL0                        : N22       :        :                   :         : 6         :                
+GND                          : N23       : gnd    :                   :         :           :                
+VCCIO6                       : N24       : power  :                   : 2.5V    : 6         :                
+Instruction_Program[9][19]   : N25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[6][12]   : N26       : input  : 2.5 V             :         : 6         : N              
+GND                          : N27       : gnd    :                   :         :           :                
+VCCIO6                       : N28       : power  :                   : 2.5V    : 6         :                
+Instruction_Program[14][12]  : P1        : input  : 2.5 V             :         : 1         : N              
+Instruction_Program[5][3]    : P2        : input  : 2.5 V             :         : 1         : N              
+~ALTERA_DCLK~                : P3        : output : 2.5 V             :         : 1         : N              
+nCONFIG                      : P4        :        :                   :         : 1         :                
+TCK                          : P5        : input  :                   :         : 1         :                
+TDO                          : P6        : output :                   :         : 1         :                
+TDI                          : P7        : input  :                   :         : 1         :                
+TMS                          : P8        : input  :                   :         : 1         :                
+VCCINT                       : P9        : power  :                   : 1.0V    :           :                
+GND                          : P10       : gnd    :                   :         :           :                
+VCCINT                       : P11       : power  :                   : 1.0V    :           :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCINT                       : P13       : power  :                   : 1.0V    :           :                
+GND                          : P14       : gnd    :                   :         :           :                
+VCCINT                       : P15       : power  :                   : 1.0V    :           :                
+GND                          : P16       : gnd    :                   :         :           :                
+VCCINT                       : P17       : power  :                   : 1.0V    :           :                
+GND                          : P18       : gnd    :                   :         :           :                
+VCCINT                       : P19       : power  :                   : 1.0V    :           :                
+GND                          : P20       : gnd    :                   :         :           :                
+Instruction_Program[12][14]  : P21       : input  : 2.5 V             :         : 5         : N              
+MSEL3                        : P22       :        :                   :         : 6         :                
+MSEL1                        : P23       :        :                   :         : 6         :                
+CONF_DONE                    : P24       :        :                   :         : 6         :                
+Instruction_Program[1][30]   : P25       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[8][30]   : P26       : input  : 2.5 V             :         : 6         : N              
+Instruction_Program[2][15]   : P27       : input  : 2.5 V             :         : 6         : N              
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : P28       : output : 2.5 V             :         : 6         : N              
+Instruction_Program[12][12]  : R1        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[8][29]   : R2        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[5][0]    : R3        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[2][6]    : R4        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[7][8]    : R5        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[9][3]    : R6        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[11][18]  : R7        : input  : 2.5 V             :         : 2         : N              
+nCE                          : R8        :        :                   :         : 1         :                
+GND                          : R9        : gnd    :                   :         :           :                
+VCCINT                       : R10       : power  :                   : 1.0V    :           :                
+GND                          : R11       : gnd    :                   :         :           :                
+VCCINT                       : R12       : power  :                   : 1.0V    :           :                
+GND                          : R13       : gnd    :                   :         :           :                
+VCCINT                       : R14       : power  :                   : 1.0V    :           :                
+GND                          : R15       : gnd    :                   :         :           :                
+VCCINT                       : R16       : power  :                   : 1.0V    :           :                
+GND                          : R17       : gnd    :                   :         :           :                
+VCCINT                       : R18       : power  :                   : 1.0V    :           :                
+GND                          : R19       : gnd    :                   :         :           :                
+VCCINT                       : R20       : power  :                   : 1.0V    :           :                
+Instruction_Program[9][20]   : R21       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[4][24]   : R22       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[1][8]    : R23       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][21]  : R24       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[2][28]   : R25       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[3][30]   : R26       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[8][15]   : R27       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][8]   : R28       : input  : 2.5 V             :         : 5         : N              
+VCCIO2                       : T1        : power  :                   : 2.5V    : 2         :                
+GND                          : T2        : gnd    :                   :         :           :                
+Instruction_Program[10][5]   : T3        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[5][30]   : T4        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : T5        : power  :                   : 2.5V    : 2         :                
+GND                          : T6        : gnd    :                   :         :           :                
+Instruction_Program[13][23]  : T7        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[7][30]   : T8        : input  : 2.5 V             :         : 2         : N              
+VCCINT                       : T9        : power  :                   : 1.0V    :           :                
+GND                          : T10       : gnd    :                   :         :           :                
+VCCINT                       : T11       : power  :                   : 1.0V    :           :                
+GND                          : T12       : gnd    :                   :         :           :                
+VCCINT                       : T13       : power  :                   : 1.0V    :           :                
+GND                          : T14       : gnd    :                   :         :           :                
+VCCINT                       : T15       : power  :                   : 1.0V    :           :                
+GND                          : T16       : gnd    :                   :         :           :                
+VCCINT                       : T17       : power  :                   : 1.0V    :           :                
+GND                          : T18       : gnd    :                   :         :           :                
+VCCINT                       : T19       : power  :                   : 1.0V    :           :                
+GND                          : T20       : gnd    :                   :         :           :                
+Instruction_Program[12][25]  : T21       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[15][6]   : T22       : input  : 2.5 V             :         : 5         : N              
+GND                          : T23       : gnd    :                   :         :           :                
+VCCIO5                       : T24       : power  :                   : 2.5V    : 5         :                
+Instruction_Program[2][14]   : T25       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[6][16]   : T26       : input  : 2.5 V             :         : 5         : N              
+GND                          : T27       : gnd    :                   :         :           :                
+VCCIO5                       : T28       : power  :                   : 2.5V    : 5         :                
+Instruction_Program[4][8]    : U1        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[11][20]  : U2        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[7][3]    : U3        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[0][26]   : U4        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[14][7]   : U5        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[3][16]   : U6        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[4][27]   : U7        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[6][4]    : U8        : input  : 2.5 V             :         : 2         : N              
+GND                          : U9        : gnd    :                   :         :           :                
+VCCINT                       : U10       : power  :                   : 1.0V    :           :                
+GND                          : U11       : gnd    :                   :         :           :                
+VCCINT                       : U12       : power  :                   : 1.0V    :           :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCINT                       : U14       : power  :                   : 1.0V    :           :                
+GND                          : U15       : gnd    :                   :         :           :                
+VCCINT                       : U16       : power  :                   : 1.0V    :           :                
+GND                          : U17       : gnd    :                   :         :           :                
+VCCINT                       : U18       : power  :                   : 1.0V    :           :                
+GND                          : U19       : gnd    :                   :         :           :                
+VCCINT                       : U20       : power  :                   : 1.0V    :           :                
+Instruction_Program[12][15]  : U21       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[12][19]  : U22       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[7][21]   : U23       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[10][20]  : U24       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[8][7]    : U25       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[1][1]    : U26       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][27]   : U27       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][3]   : U28       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[0][5]    : V1        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[14][24]  : V2        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[15][5]   : V3        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[4][20]   : V4        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[2][3]    : V5        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[7][15]   : V6        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[1][20]   : V7        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[11][14]  : V8        : input  : 2.5 V             :         : 2         : N              
+VCCINT                       : V9        : power  :                   : 1.0V    :           :                
+GND                          : V10       : gnd    :                   :         :           :                
+VCCINT                       : V11       : power  :                   : 1.0V    :           :                
+GND                          : V12       : gnd    :                   :         :           :                
+VCCINT                       : V13       : power  :                   : 1.0V    :           :                
+GND                          : V14       : gnd    :                   :         :           :                
+VCCINT                       : V15       : power  :                   : 1.0V    :           :                
+GND                          : V16       : gnd    :                   :         :           :                
+VCCINT                       : V17       : power  :                   : 1.0V    :           :                
+GND                          : V18       : gnd    :                   :         :           :                
+VCCINT                       : V19       : power  :                   : 1.0V    :           :                
+GND                          : V20       : gnd    :                   :         :           :                
+Instruction_Program[7][11]   : V21       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[15][16]  : V22       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[1][6]    : V23       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[12][3]   : V24       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[0][6]    : V25       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][9]   : V26       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][18]   : V27       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[1][12]   : V28       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[13][3]   : W1        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[8][9]    : W2        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[13][28]  : W3        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[5][7]    : W4        : input  : 2.5 V             :         : 2         : N              
+VCCIO2                       : W5        : power  :                   : 2.5V    : 2         :                
+GND                          : W6        : gnd    :                   :         :           :                
+Instruction_Program[14][17]  : W7        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[1][15]   : W8        : input  : 2.5 V             :         : 2         : N              
+GND                          : W9        : gnd    :                   :         :           :                
+VCCINT                       : W10       : power  :                   : 1.0V    :           :                
+GND                          : W11       : gnd    :                   :         :           :                
+VCCINT                       : W12       : power  :                   : 1.0V    :           :                
+GND                          : W13       : gnd    :                   :         :           :                
+VCCINT                       : W14       : power  :                   : 1.0V    :           :                
+GND                          : W15       : gnd    :                   :         :           :                
+VCCINT                       : W16       : power  :                   : 1.0V    :           :                
+GND                          : W17       : gnd    :                   :         :           :                
+VCCINT                       : W18       : power  :                   : 1.0V    :           :                
+GND                          : W19       : gnd    :                   :         :           :                
+VCCINT                       : W20       : power  :                   : 1.0V    :           :                
+Instruction_Program[11][17]  : W21       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[15][14]  : W22       : input  : 2.5 V             :         : 5         : N              
+GND                          : W23       : gnd    :                   :         :           :                
+VCCIO5                       : W24       : power  :                   : 2.5V    : 5         :                
+Instruction_Program[0][13]   : W25       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[12][7]   : W26       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[7][5]    : W27       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[0][27]   : W28       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[11][1]   : Y1        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[11][0]   : Y2        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[12][20]  : Y3        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[8][14]   : Y4        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[13][19]  : Y5        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[14][4]   : Y6        : input  : 2.5 V             :         : 2         : N              
+Instruction_Program[13][29]  : Y7        : input  : 2.5 V             :         : 2         : N              
+VCCA1                        : Y8        : power  :                   : 2.5V    :           :                
+VCCD_PLL1                    : Y9        : power  :                   : 1.0V    :           :                
+Instruction_Program[11][6]   : Y10       : input  : 2.5 V             :         : 3         : N              
+GND                          : Y11       : gnd    :                   :         :           :                
+Instruction_Program[7][13]   : Y12       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[3][17]   : Y13       : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y14       :        :                   :         : 3         :                
+Instruction_Program[8][11]   : Y15       : input  : 2.5 V             :         : 3         : N              
+Instruction_Program[14][30]  : Y16       : input  : 2.5 V             :         : 4         : N              
+Instruction_Program[0][30]   : Y17       : input  : 2.5 V             :         : 4         : N              
+GND                          : Y18       : gnd    :                   :         :           :                
+Instruction_Program[15][13]  : Y19       : input  : 2.5 V             :         : 4         : N              
+VCCD_PLL4                    : Y20       : power  :                   : 1.0V    :           :                
+VCCA4                        : Y21       : power  :                   : 2.5V    :           :                
+Instruction_Program[6][14]   : Y22       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[13][8]   : Y23       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[6][10]   : Y24       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[9][4]    : Y25       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[6][26]   : Y26       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[10][28]  : Y27       : input  : 2.5 V             :         : 5         : N              
+Instruction_Program[10][27]  : Y28       : input  : 2.5 V             :         : 5         : N              

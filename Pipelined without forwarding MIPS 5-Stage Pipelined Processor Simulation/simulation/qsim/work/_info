@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/kzarv/OneDrive/School/2021 Fall Semester/CPE 436 Senior Project/MIPS 5-Stage Pipelined Processor Simulation/simulation/qsim
+Ehard_block
+Z1 w1635202887
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 WOh:M[al;oVzG5c`<He>D0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 zGMDhP>8e@2k@f0e<PY]k2
+!i122 30
+R0
+Z8 8MIPS_Processor.vho
+Z9 FMIPS_Processor.vho
+l0
+L35 1
+VB]0;STalBkCB1_B4BXQDW2
+!s100 >mXi5[`cD`bFC`UBKA<om3
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1635202887
+!i10b 1
+Z12 !s108 1635202887.000000
+Z13 !s90 -work|work|MIPS_Processor.vho|
+Z14 !s107 MIPS_Processor.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 B]0;STalBkCB1_B4BXQDW2
+!i122 30
+l65
+L51 20
+Via>5o7W??azG@W@@eFOTF0
+!s100 [5;Wd8QGQ>@2NGoJ1I]Y43
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emips_processor
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 30
+R0
+R8
+R9
+l0
+L78 1
+VfAEJ7X^OYCb>FLMTFK_F60
+!s100 BLhjI;Xn3gQ^lH0m8jUzj1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 14 mips_processor 0 22 fAEJ7X^OYCb>FLMTFK_F60
+!i122 30
+l342
+L189 1858
+V1mOE>Y9V;ij4?oI6>[`l71
+!s100 Od]n5L1OdG@Y@UJ0ka[V=0
+R10
+32
+Z17 !s110 1635202888
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Emips_processor_vhd_vec_tst
+Z18 w1635202886
+R5
+R6
+!i122 31
+R0
+Z19 8Waveform.vwf.vht
+Z20 FWaveform.vwf.vht
+l0
+L32 1
+V7=M`6NiC1QQa?ZfJ8G[Le0
+!s100 ODE[@U=TfTlb4gIGQ4K@M1
+R10
+32
+R17
+!i10b 1
+Z21 !s108 1635202888.000000
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Amips_processor_arch
+R5
+R6
+Z24 DEx4 work 26 mips_processor_vhd_vec_tst 0 22 7=M`6NiC1QQa?ZfJ8G[Le0
+!i122 31
+l51
+L34 476
+VLP_]knzM]gOVjU^f;1Bi32
+!s100 Y<NW@E2`i]0`<?dJ0G92c0
+R10
+32
+R17
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R15
+R16

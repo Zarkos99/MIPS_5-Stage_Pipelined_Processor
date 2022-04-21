@@ -1,0 +1,697 @@
+# Reading pref.tcl
+# do MIPS_Processor_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:47 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU
+# -- Compiling architecture ALU_arch of ALU
+# End time: 11:18:47 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:47 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Registers.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Registers
+# -- Compiling architecture Registers_arch of Registers
+# End time: 11:18:47 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:47 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Data Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Data_Mem
+# -- Compiling architecture Data_Mem_arch of Data_Mem
+# End time: 11:18:47 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:47 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 11:18:47 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:47 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Control
+# -- Compiling architecture Control_arch of Control
+# End time: 11:18:47 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:47 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/ALU_Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU_Control
+# -- Compiling architecture ALU_Control_arch of ALU_Control
+# End time: 11:18:48 on Mar 18,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:18:48 on Mar 18,2022
+# vcom -reportprogress 300 -93 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/MIPS_Processor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity MIPS_Processor
+# -- Compiling architecture MIPS_Processor_arch of MIPS_Processor
+# End time: 11:18:48 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:00 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 11:19:00 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:19:01 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_Instruction_Mem
+# -- Compiling architecture behavior of Testbench_Instruction_Mem
+# End time: 11:19:01 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.testbench_instruction_mem
+# vsim -gui -l msim_transcript work.testbench_instruction_mem 
+# Start time: 11:19:09 on Mar 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_type
+# Loading work.testbench_instruction_mem(behavior)
+# Loading work.instruction_mem(instruction_mem_arch)
+# ** Fatal: (vsim-3807) Types do not match between component and entity for port "Instruction_out".
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_instruction_mem/uut File: C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 11:19:09 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:20:08 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 11:20:08 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:20:09 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_Instruction_Mem
+# -- Compiling architecture behavior of Testbench_Instruction_Mem
+# End time: 11:20:09 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.testbench_instruction_mem
+# vsim -gui -l msim_transcript work.testbench_instruction_mem 
+# Start time: 11:20:15 on Mar 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.instruction_type
+# Loading work.testbench_instruction_mem(behavior)
+# Loading work.instruction_mem(instruction_mem_arch)
+add wave -position insertpoint  \
+sim:/testbench_instruction_mem/uut/Instruction_memory
+add wave -position insertpoint  \
+sim:/testbench_instruction_mem/Read_Address \
+sim:/testbench_instruction_mem/Instruction_memory \
+sim:/testbench_instruction_mem/Instruction_out
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_instruction_mem/uut
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:25:58 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 11:25:58 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:26:00 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_Instruction_Mem
+# -- Compiling architecture behavior of Testbench_Instruction_Mem
+# End time: 11:26:00 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.instruction_type
+# Loading work.testbench_instruction_mem(behavior)
+# Loading work.instruction_mem(instruction_mem_arch)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_instruction_mem/uut
+add wave -position insertpoint  \
+sim:/testbench_instruction_mem/uut/Instruction_out
+run -continue
+run -continue
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:12 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 11:37:12 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:13 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_Instruction_Mem
+# -- Compiling architecture behavior of Testbench_Instruction_Mem
+# End time: 11:37:13 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.instruction_type
+# Loading work.testbench_instruction_mem(behavior)
+# Loading work.instruction_mem(instruction_mem_arch)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_instruction_mem/uut
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:47 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling package instruction_type
+# -- Loading package instruction_type
+# -- Compiling entity Instruction_Mem
+# -- Compiling architecture Instruction_Mem_arch of Instruction_Mem
+# End time: 11:38:47 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:38:48 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_Instruction_Mem
+# -- Compiling architecture behavior of Testbench_Instruction_Mem
+# End time: 11:38:48 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.instruction_type
+# Loading work.testbench_instruction_mem(behavior)
+# Loading work.instruction_mem(instruction_mem_arch)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_instruction_mem/uut
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:36 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Instruction_mem_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package instruction_type
+# -- Compiling entity Testbench_Instruction_Mem
+# -- Compiling architecture behavior of Testbench_Instruction_Mem
+# End time: 11:39:36 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testbench_instruction_mem(behavior)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_instruction_mem/uut
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Control.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:56:31 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Control.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Control
+# -- Compiling architecture Control_arch of Control
+# End time: 11:56:31 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work {C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Control_testbench.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:56:32 on Mar 18,2022
+# vcom -reportprogress 300 -work work C:/Users/kzarv/OneDrive/School/2022 Spring Semester/CPE 440 Senior Project/Program Copy/Single Cycle MIPS 5-Stage Pipelined Processor Simulation/Control_testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Testbench_Control
+# -- Compiling architecture behavior of Testbench_Control
+# End time: 11:56:32 on Mar 18,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -gui -l msim_transcript work.testbench_control
+# End time: 11:56:40 on Mar 18,2022, Elapsed time: 0:36:25
+# Errors: 0, Warnings: 1
+# vsim -gui -l msim_transcript work.testbench_control 
+# Start time: 11:56:40 on Mar 18,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.testbench_control(behavior)
+# Loading work.control(control_arch)
+add wave -position insertpoint  \
+sim:/testbench_control/Instruction \
+sim:/testbench_control/RegDst \
+sim:/testbench_control/ALUsrc \
+sim:/testbench_control/MemtoReg \
+sim:/testbench_control/RegWrite \
+sim:/testbench_control/MemRead \
+sim:/testbench_control/MemWrite \
+sim:/testbench_control/Branch \
+sim:/testbench_control/ALUop
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_control/UUT
+# End time: 13:33:11 on Mar 18,2022, Elapsed time: 1:36:31
+# Errors: 0, Warnings: 40

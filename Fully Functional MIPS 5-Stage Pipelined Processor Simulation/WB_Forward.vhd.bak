@@ -1,0 +1,41 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.ALL;
+USE ieee.numeric_std.ALL;
+
+entity WB_Forward is
+ port ( MA_Rd, WB_Rd: in UNSIGNED (4 downto 0);
+		  MA_RegWrite, WB_RegWrite: in STD_LOGIC;
+		  EX_rs, EX_rt: in UNSIGNED (4 downto 0);
+		  Forward_1, Forward_2: out UNSIGNED (1 downto 0)
+		);
+end WB_Forward;
+
+-- Write Back Forwarding Unit
+-- A forwarding unit for use directly after the registers. This solves the data hazard of reading and writing simulataneously 
+-- where the data read is not what should have been written.
+
+
+architecture Forward_arch of Forward is
+	
+	
+ begin
+ 
+ Forward_1 <=
+		--Use MA ALU output when MA destination register equals EX read register
+		"10" when  EX_rs = MA_Rd and MA_RegWrite = '1' else
+		--Use WB ALU output when WB destination register equals EX read register
+		"01" when  EX_rs = WB_Rd and MA_Rd /= WB_Rd and WB_RegWrite = '1' else		--Need to make sure the MA and WB stage write register numbers dont equal eachother such that we use the most recent ALU output
+		--Use the regular register data when they don't equal
+		"00";
+		
+ Forward_2 <=
+		--Use MA ALU output when MA destination register equals EX read register
+		"10" when  EX_rt = MA_Rd and MA_RegWrite = '1' else
+		--Use WB ALU output when WB destination register equals EX read register
+		"01" when  EX_rt = WB_Rd and MA_Rd /= WB_Rd and WB_RegWrite = '1' else
+		--Use the regular register data when they don't equal
+		"00";
+				
+
+  
+end Forward_arch;
